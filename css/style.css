@@ -1,0 +1,211 @@
+header {
+  color: white;
+  width: 100%;
+  background: url("../img/hopital.png") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home-title {
+width: 726px;
+margin: 0 auto;
+}
+
+#home-title h1 {
+width: 726px;
+line-height: 142px;
+text-align: center;
+font-size: 118px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 800;
+background: rgb(209, 81, 81);
+}
+
+#home-title p {
+text-align: center;
+font-size: 24px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 800;
+}
+
+#date {
+width: 330px;
+height: 61px;
+float: left;
+padding: 9px 0px 0px 24px;
+background: rgb(209, 81, 81);
+}
+
+#location {
+width: 303px;
+height: 61px;
+float: right;
+padding: 9px 0px 0px 19px;
+background: rgb(209, 81, 81);
+}
+
+span.date, span.location {
+display: block;
+height: 54px;
+line-height: 53px;
+/* color: #fff; */
+font-size: 26px;
+text-transform: uppercase;
+padding: 0px 0px 0px 70px;
+}
+
+span.location {
+ background: url('../img/location-green.png') no-repeat;   
+} 
+
+span.date {
+background: url('../img/date.png') no-repeat;
+} 
+
+#health-professionals-box {
+width: 497px;
+padding: 9px 0px 0px 11px;
+float: left;
+background: black;
+margin: 10px 0px 10px 0px;
+}
+
+#hackers-box {
+width: 499px;
+padding: 10px 0px 0px 11px;
+float: right;
+background: rgb(2, 2, 2);
+margin: 10px 0px 10px 0px;
+}
+
+#health-professionals-box img, #hackers-box img {
+float: left;
+margin: 0px 20px 10px 0px;
+}
+
+#health-professionals-box h2, #hackers-box h2 {
+font-size: 22px;
+margin: 0;
+}
+
+#health-professionals-box p, #hackers-box p {
+font-size: 16px;
+line-height: 150%;
+}
+
+#signup-bottom {
+clear: both;
+padding: 10px 0px;
+text-align: center;
+background: black;
+margin: 10px auto;
+width: 650px;
+line-height: 28px;
+}
+
+#signup-bottom p {
+font-size: 24px;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 200px; 
+}
+
+section p {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.theme {
+    width: 320px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 28px;
+    margin: auto;
+}
+
+.accordion {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.accordion-heading {
+    font-weight: bold;
+}
+
+.navbar .nav>li>a {
+    color: #D6CECE;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.concept {
+    background-color: #D38418;
+    color: white;
+}
+.defi {
+    background-color: #7aa922;
+    color: white;
+}
+.equipe {
+    background-color: #e76851;
+    color: white;
+}
+.deroulement {
+    background-color: #4dc4d6;
+    color: white;
+}
+.questions {
+    background-color: #A7388A;
+    color: white;
+}
+.presse {
+    background-color: #fa1e3e;
+    color: white;
+}
+.sponsors {
+    background-color: #9e553d;
+    color: white;
+}
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+header {
+    margin: 50px 0px 0 0;
+}
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+body {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    
+.navbar .nav>li {
+    float: none;
+}
+
+}
