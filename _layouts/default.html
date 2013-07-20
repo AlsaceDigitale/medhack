@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    {% if page.facebook_description %}<meta property="og:description" content="{{ page.facebook_description }}" />{% endif %}
+    {% if page.facebook_image %}<meta property="og:image" content="{{ page.facebook_image }}" />{% endif %}
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body ng-app="medhack">
+    {% include nav.html %}
+    <header>
+      <div class="container">
+              <div id="home-title">
+                  <h1>MedHack</h1>
+                  <p class="subtitle">65h pour créer l'innovation numérique en santé</p>
+                  <div id="date">
+                      <span class="date">XX - XX Janv 2014</span>
+                  </div>
+                  <div id="location">
+                      <span class="location">HUS</span>
+                  </div>
+              </div> <!--home title ends-->
+              <div class="clear"></div>
+              <div id="home-signup">
+                  <a href="#">
+                      <div id="health-professionals-box">
+                          <img src="img/health.png" alt="">
+                          <h2>Professionnels de santé</h2>
+                          <p>Vous avez des idées pour améliorer les pratiques et la prise en charge des patients</p>
+                      </div>
+                  </a>
+                  <a href="#">
+                      <div id="hackers-box">
+                          <img src="img/hacker.png" alt="">
+                          <h2>Hackers</h2>
+                          <p>Vous maitrisez des technologies innovantes et vous aimez résoudre des problèmes</p>
+                      </div>
+                  </a>
+                  <div id="signup-bottom">
+                      <p style="margin-top:40px;">Rejoignez une équipe et concevez des solutions pour résoudre des problèmes médicaux en un weekend</p>
+                      <a href="inscription.html" id="home-signup-btn">INSCRIVEZ-VOUS</a>
+                  </div>
+              </div>
+      </div>
+    </header>
+    {{ content }}
+    <footer>
+      <div class="container">
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="components/jquery/jquery.js"></script>
+    <script type="text/javascript" src="components/angular/angular.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/medhack.js"></script>
+
+    <script>
+      $(".collapse").collapse();
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXXXX', 'medhack.fr');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
