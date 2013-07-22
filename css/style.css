@@ -21,7 +21,7 @@ font-size: 118px;
 color: #fff;
 text-transform: uppercase;
 font-weight: 800;
-background: rgb(209, 81, 81);
+background: rgba(209, 81, 81, 0.7);
 }
 
 #home-title p {
@@ -70,7 +70,7 @@ background: url('../img/date.png') no-repeat;
 width: 497px;
 padding: 9px 0px 0px 11px;
 float: left;
-background: black;
+background: rgba(0,0,0,0.7);
 margin: 10px 0px 10px 0px;
 }
 
@@ -78,7 +78,7 @@ margin: 10px 0px 10px 0px;
 width: 499px;
 padding: 10px 0px 0px 11px;
 float: right;
-background: rgb(2, 2, 2);
+background: rgba(0, 0, 0, 0.7);
 margin: 10px 0px 10px 0px;
 }
 
@@ -101,7 +101,7 @@ line-height: 150%;
 clear: both;
 padding: 10px 0px;
 text-align: center;
-background: black;
+background: rgba(0,0,0,0.7);
 margin: 10px auto;
 width: 650px;
 line-height: 28px;
