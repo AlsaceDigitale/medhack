@@ -166,8 +166,8 @@ section p {
 
 .navbar .nav>li>a {
     color: #D6CECE;
-    font-size: 1.5em;
-    text-decoration: none;
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 .concept {
     background-color: #4E8792;
