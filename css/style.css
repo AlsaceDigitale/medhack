@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+
 header {
   color: white;
   width: 100%;
@@ -14,10 +16,11 @@ margin: 0 auto;
 }
 
 #home-title h1 {
+font-family : Libre Baskerville ;
 width: 726px;
 line-height: 142px;
 text-align: center;
-font-size: 118px;
+font-size: 110px;
 color: #fff;
 text-transform: uppercase;
 font-weight: 800;
@@ -122,8 +125,14 @@ section {
   min-height: 200px; 
 }
 
+section h2 {
+    font-family: georgia;
+    
+}
+
 section p {
-    font-size: 24px;
+    font-family: arial;
+    font-size: 19px; 
     line-height: 24px;
 }
 
