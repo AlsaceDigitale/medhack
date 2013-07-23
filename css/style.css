@@ -47,14 +47,14 @@ background: rgb(209, 81, 81);
 }
 
 #location {
-width: 303px;
+width: 340px;
 height: 61px;
 float: right;
 padding: 9px 0px 0px 19px;
 background: rgb(209, 81, 81);
 }
 
-span.date, span.location {
+span.date, span.location { 
 display: block;
 height: 54px;
 line-height: 53px;
