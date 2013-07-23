@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(http://fonts.googleapis.com/css?family=Fauna+One);
 
 header {
   color: white;
@@ -28,11 +29,13 @@ background: rgba(209, 81, 81, 0.7);
 }
 
 #home-title p {
+font-family : Times ; 
+font-style : italic; 
 text-align: center;
-font-size: 24px;
-color: #fff;
-text-transform: uppercase;
-font-weight: 800;
+font-size: 33px;
+color: white;
+text-transform:  ;
+font-weight: 400;
 }
 
 #date {
