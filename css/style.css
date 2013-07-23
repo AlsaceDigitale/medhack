@@ -29,10 +29,10 @@ background: rgba(209, 81, 81, 0.7);
 }
 
 #home-title p {
-font-family : Times ; 
+font-family : Fauna One ; 
 font-style : italic; 
 text-align: center;
-font-size: 33px;
+font-size: 20px;
 color: white;
 text-transform:  ;
 font-weight: 400;
@@ -78,6 +78,7 @@ padding: 9px 0px 0px 11px;
 float: left;
 background: rgba(0,0,0,0.7);
 margin: 10px 0px 10px 0px;
+font-family : Fauna One;
 }
 
 #hackers-box {
@@ -86,6 +87,7 @@ padding: 10px 0px 0px 11px;
 float: right;
 background: rgba(0, 0, 0, 0.7);
 margin: 10px 0px 10px 0px;
+font-family: Fauna One;
 }
 
 #health-professionals-box img, #hackers-box img {
@@ -114,7 +116,8 @@ line-height: 28px;
 }
 
 #signup-bottom p {
-font-size: 24px;
+font-size: 18px;
+font-family : Fauna One; 
 }
 
 .navbar .nav {
@@ -129,14 +132,14 @@ section {
 }
 
 section h2 {
-    font-family: georgia;
+    font-family: Times;
     
 }
 
 section p {
     font-family: arial;
     font-size: 19px; 
-    line-height: 24px;
+    line-height: 25px;
 }
 
 .theme {
