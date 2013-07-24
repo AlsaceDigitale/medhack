@@ -3,7 +3,7 @@
 
 header {
   color: white;
-  width: 100%;
+  width: 100%; 
   background: url("../img/hopital.png") no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -188,7 +188,7 @@ section p {
     color: white;
 }
 .questions {
-    background-color: #72534E;
+    background-color: #4B5E57;
     color: white;
 }
 .presse {
