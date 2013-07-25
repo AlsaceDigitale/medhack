@@ -140,13 +140,15 @@ section {
 
 section h2 {
     font-family: Fauna One;
+    margin : 48px 0px 30px 15px;
     
 }
 
 section p {
     font-family: arial;
-    font-size: 19px; 
+    font-size: 18px; 
     line-height: 25px;
+    margin : 0px 20px 0px 15px;
 }
 
 .theme {
@@ -202,11 +204,11 @@ section p {
 
 .calbox {
   border: black solid 0px;
-  padding: 0px 0px 0px 4px;
-  height: 230px;
+  padding: 0px -5px 0px 4px;
+  height: 270px;
   background: url('../img/calendar.png')no-repeat; 
   color: black;
-  width: 260px;
+  width: 270px;
 }
 
 /* Large desktop */
