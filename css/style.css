@@ -199,6 +199,16 @@ section p {
     background-color: #FFFFFF;
     color: white;
 }
+
+.calbox {
+  border: black solid 1px;
+  padding: 0px 0px 0px 4px;
+  height: 250px;
+  background-color: yellow;
+  color: black;
+  width: 260px;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) { 
 
