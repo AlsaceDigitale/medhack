@@ -147,7 +147,7 @@ section h2 {
 
 section p {
     font-family: arial;
-    font-size: 17x; 
+    font-size: 18px; 
     line-height: 25px;
     margin : 0px 10px 0px 15px;
 }
@@ -203,7 +203,8 @@ section p {
     color: white;
 }
 
-.calbox {
+.calbox  {
+  
   border: black solid 0px;
   padding: 0px -5px 0px 4px;
   height: 280px;
@@ -211,6 +212,8 @@ section p {
   color: black;
   width: 270px;
 }
+
+.calbox p { font-size: 16px; }
 
 /* Large desktop */
 @media (min-width: 1200px) { 
