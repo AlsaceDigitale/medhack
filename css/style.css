@@ -201,10 +201,10 @@ section p {
 }
 
 .calbox {
-  border: black solid 1px;
+  border: black solid 0px;
   padding: 0px 0px 0px 4px;
-  height: 250px;
-  background-color: yellow;
+  height: 230px;
+  background: url('../img/calendar.png')no-repeat; 
   color: black;
   width: 260px;
 }
