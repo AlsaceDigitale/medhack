@@ -13,7 +13,7 @@ header {
 
 #home-title {
 width: 726px;
-margin: 0 auto;
+margin: 40px auto 0px auto;
 }
 
 #home-title h1 {
@@ -131,7 +131,15 @@ font-family : Fauna One;
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
+
+.navbar .nav>li {
+  float: none;
+  display: inline-block;
+}
+
 section {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -213,7 +221,7 @@ section p {
 @media (min-width: 1200px) { 
 
 header {
-    margin: 50px 0px 0 0;
+    margin: 0px 0px 0 0;
 }
 
 }
