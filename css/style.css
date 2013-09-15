@@ -161,6 +161,7 @@ section p {
 }
 
 .theme {
+    font-family: arial;
     width: 320px;
     text-align: left;
     font-size: 17px;
@@ -219,6 +220,7 @@ section p {
   background: url('../img/calendar.png')no-repeat; 
   color: black;
   width: 270px;
+  margin-left: 80px;
 }
 
 .calbox p { font-size: 16px; }
