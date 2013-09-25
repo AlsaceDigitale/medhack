@@ -45,6 +45,7 @@ width: 330px;
 height: 61px;
 float: left;
 padding: 9px 0px 0px 24px;
+margin-top: px;
 background: rgba(0,0,0,0.7);
 }
 
@@ -113,13 +114,13 @@ line-height: 150%;
 
 #signup-bottom {
 clear: both;
-padding: 10px 0px;
+padding: 10px; 0px;
 text-align: center;
 background: rgba(209, 81, 81, 0.7);
 margin: 20px auto;
 width: 650px;
 height :140px; 
-line-height: 28px;
+line-height: 25px;
 }
 
 #signup-bottom p {
