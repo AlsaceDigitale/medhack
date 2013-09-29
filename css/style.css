@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
+@import "fonts.css";
 
 header {
   color: white;
@@ -35,7 +36,6 @@ font-style : italic;
 text-align: center;
 font-size: 20px;
 color: white;
-text-transform:  ;
 font-weight: 400;
 margin-top : -40px;
 }
@@ -45,7 +45,6 @@ width: 330px;
 height: 61px;
 float: left;
 padding: 9px 0px 0px 24px;
-margin-top: px;
 background: rgba(0,0,0,0.7);
 }
 
@@ -100,9 +99,8 @@ margin: 0px 20px 10px 0px;
 
 #health-professionals-box h2, #hackers-box h2 {
 font-size: 20px;
-font-family : ; 
 margin: 0;
-font-weight: 900px; 
+font-weight: 900;
 }
 
 
@@ -114,31 +112,17 @@ line-height: 150%;
 
 #signup-bottom {
 clear: both;
-padding: 10px; 0px;
+padding: 10px 0px;
 text-align: center;
 background: rgba(209, 81, 81, 0.7);
 margin: 20px auto;
 width: 650px;
-height :140px; 
 line-height: 25px;
 }
 
 #signup-bottom p {
 font-size: 18px;
 font-family : Fauna One; 
-}
-
-.navbar .nav {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar .nav>li {
-  float: none;
-  display: inline-block;
 }
 
 section {
@@ -171,7 +155,7 @@ section p {
 }
 
 .accordion {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 24px;
 }
 
@@ -179,11 +163,6 @@ section p {
     font-weight: bold;
 }
 
-.navbar .nav>li>a {
-    color: #D6CECE;
-    font-size: 1.2em;
-    text-decoration: underline;
-}
 .concept {
     background-color: #4E8792;
     color: white;
@@ -210,7 +189,12 @@ section p {
 }
 .sponsors {
     background-color: #FFFFFF;
-    color: white;
+    color: #000000;
+    text-align: center;
+}
+
+.sponsors img {
+    width: 100px;
 }
 
 .calbox  {
@@ -225,6 +209,48 @@ section p {
 }
 
 .calbox p { font-size: 16px; }
+
+.navbar .nav>li>a.social-media {
+    font-family: 'SocialMediaFont';
+    padding: 0px 5px;
+    font-size: 35px;
+}
+
+.navbar .nav>li>a.facebook-icon {
+    color: #3B5998;
+}
+.navbar .nav>li>a.twitter-icon {
+    color: #4099FF;
+}
+.navbar .nav>li>a.gplus-icon {
+    color: #d34836;
+}
+.navbar .nav>li>a.linkedin-icon {
+    color: #4875B4;
+}
+
+.navbar .nav>li>a {
+    color: #D6CECE;
+    font-size: 1.2em;
+//text-decoration: underline;
+}
+
+.navbar .nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav>li {
+    float: none;
+    display: inline-block;
+}
+
+.text-justify {
+    text-align: justify;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) { 

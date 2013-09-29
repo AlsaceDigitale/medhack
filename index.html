@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>DigitalHealthCamp : 54h pour innover en santé</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="DigitalHealthCamp, Hackathon dédié à la santé, réu">
     <meta name="author" content="">
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="website" />
-    {% if page.facebook_description %}<meta property="og:description" content="{{ page.facebook_description }}" />{% endif %}
-    {% if page.facebook_image %}<meta property="og:image" content="{{ page.facebook_image }}" />{% endif %}
+    <meta property="og:title" content="DigitalHealthCamp"/>
+    <meta property="og:type" content="website"/>
+    {% if page.facebook_description %}
+    <meta property="og:description" content="{{ page.facebook_description }}"/>
+    {% endif %}
+    {% if page.facebook_image %}
+    <meta property="og:image" content="{{ page.facebook_image }}"/>
+    {% endif %}
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -24,49 +28,67 @@
 
 <body ng-app="medhack">
 <nav class="navbar navbar-fixed-top">
-    <ul class="nav menu"> 
+    <ul class="nav menu">
+        <img src="img/logo-AD.png" style="width:170px;"/>
         <li><a scroll-to="#concept">Concept</a></li>
         <li><a scroll-to="#defi">Proposer un défi</a></li>
         <li><a scroll-to="#equipe">Rejoindre une équipe</a></li>
         <li><a scroll-to="#deroulement">Déroulement</a></li>
         <li><a scroll-to="#questions">Des questions ?</a></li>
         <li><a scroll-to="#presse">Presse</a></li>
-        <li><a scroll-to="#sponsors">Partenaires et sponsors</a></li>
-        <li><a href="inscription.html">S'inscrire</a></li>
+        <li><a scroll-to="#sponsors">Partenaires</a></li>
+        <li><a href="http://twitter.com/digitalhealthcamp" class="social-media twitter-icon" title="Follow DigitalHealthCamp on Twitter">e</a></li>
+        <li><a href="http://facebook.com/digitalhealthcamp" class="social-media facebook-icon" title="Follow DigitalHealthCamp on Facebook">c</a></li>
+        <li><a href="https://plus.google.com/u/1/b/116340191957345593804/116340191957345593804/posts" class="social-media gplus-icon" title="Follow DigitalHealthCamp on Google Plus">d</a></li>
+        <li><a href="http://www.linkedin.com/groups/DigitalHealthCamp-6400524" class="social-media linkedin-icon" title="Follow DigitalHealthCamp on LinkedIn">n</a></li>
     </ul>
-</nav> 
+</nav>
 <header>
     <div class="container">
         <div id="home-title">
             <h1><img src="img/DHC.png"></h1>
+
             <p class="subtitle">&nbsp;&nbsp;</p>
-           
+
             <div id="date">
-                <span class="date">XX - XX Févr 2014</span>
+                <span class="date">07-08-09 Févr 2014</span>
             </div>
             <div id="location">
                 <span class="location">Fac de médecine</span>
             </div>
-        </div> <!--home title ends-->
+        </div>
+        <!--home title ends-->
         <div class="clear"></div>
         <div id="home-signup">
-            <a href="#">
-                <div id="health-professionals-box">
-                    <img src="img/health.png" alt="">
-                    <h2>Professionnels de santé</h2>
-                    <p>Vous avez des idées pour améliorer les pratiques et la prise en charge des patients</p>
-                </div>
-            </a>
-            <a href="#">
-                <div id="hackers-box">
-                    <img src="img/hacker.png" alt="">
-                    <h2>Hackers</h2>
-                    <p>Vous maitrisez des technologies innovantes et vous aimez résoudre des problèmes</p>
-                </div>
-            </a>
+            <div id="health-professionals-box">
+                <img src="img/health.png" alt="">
+
+                <h2>Professionnels de santé</h2>
+
+                <p>Vous avez des idées pour améliorer les pratiques et la prise en charge des patients</p>
+            </div>
+            <div id="hackers-box">
+                <img src="img/hacker.png" alt="">
+
+                <h2>Développeurs / Designers</h2>
+
+                <p>Vous maitrisez des technologies innovantes et vous aimez résoudre des problèmes</p>
+            </div>
             <div id="signup-bottom">
-                <p style="margin-top:40px;">54h pour créer l'innovation numérique en santé !<br> Rejoignez une équipe et concevez des solutions pour résoudre des problèmes médicaux en un weekend</p>
-                <a href="inscription.html" id="home-signup-btn">INSCRIVEZ-VOUS</a>
+                <p>54h pour créer l'innovation numérique en santé !<br> Rejoignez une équipe et concevez des solutions
+                    pour résoudre des problèmes médicaux en un weekend<br><br>
+                    Pour être tenu informé des ateliers de préparation, des défis soumis, de l’ouverture des
+                    inscriptions et de toutes l’actualité sur cet évènement<br>
+                    <!-- Begin MailChimp Signup Form -->
+
+                <form action="http://laplagedigitale.us7.list-manage.com/subscribe/post?u=b0542d8d13b538bc63aa779a9&amp;id=89eb730523"
+                      method="post" target="_blank" novalidate>
+                    <input type="email" placeholder="email" name="EMAIL">
+                    <input type="submit" value="Enregistrez-vous" name="subscribe" class="btn-primary"
+                           style="vertical-align: top;">
+                </form>
+                <!--End mc_embed_signup-->
+                </p>
             </div>
         </div>
     </div>
@@ -76,12 +98,21 @@
         <div class="row">
             <div class="span12 text-center">
                 <h2>Concept</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4 text-justify">
+                <p>Faire émerger des <b>solutions innovantes</b> à travers un <b>échange direct</b> entre “ceux qui fabriquent” (les
+                    développeurs et designers) et “ceux qui utilisent” (les professionnels de santé).</p>
+            </div>
+            <div class="span4 text-justify">
+                <p>A partir des <b>défis proposés</b> des équipes se constituent pour mettre en oeuvre des solutions
+                    logicielles ou matérielles.</p>
+            </div>
+            <div class="span4 text-justify">
+                <p>Sur un <b>week-end</b>, ils vont faire émerger des idées, des prototypes et apprendre ensemble à <b>construire
+                    leur futur</b>.</p>
 
-                <p>Faire émerger des solutions innovantes à travers un échange direct entre “ceux qui fabriquent” (les
-                    hackers) et “ceux qui utilisent” (les professionnels de santé).</p>
-
-                <p>A partir des défis proposés des équipes se constituent pour mettre en oeuvre des solutions
-                    logicielles et/ou matérielles.</p>
             </div>
         </div>
     </div>
@@ -91,32 +122,39 @@
         <div class="row">
             <div class="span12 text-center">
                 <h2>Proposer un défi</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4 text-justify">
+                <p>Le principe du défi est de <b>présenter une problématique médicale</b> susceptible d’être résolue, ou du
+                    moins en partie,
+                    par une approche numérique (logicielle ou matérielle ou les 2).</p>
 
-                <p>Le défi doit présenter une problématique médicale susceptible d’être résolue, ou du moins en partie,
-                    par une approche numérique (logicielle et/ou matérielle).</p>
+                <p>Il peut par exemple porter sur les thèmes suivants : <b>dossier patient, open data santé, médico social,
+                    imagerie médicale, télémédecine, lien ville-hôpital, DMP, m-santé et le mobile à l’hôpital,
+                    formation numérique en santé, quantified-self</b></p>
+            </div>
+            <div class="span4 text-justify">
 
-                <p>Le défi doit porter sur les thèmes suivants :
-                <div class="theme">
-                <ul>
-                    <li>dossier patient</li>
-                    <li>open data santé</li>
-                    <li>médico social</li>
-                    <li>imagerie médicale</li>
-                    <li>télémédecine</li>
-                    <li>lien ville-hôpital</li>
-                    <li>DMP</li>
-                    <li>m-santé et le mobile à l’hôpital</li>
-                    <li>formation numérique en santé</li>
-                    <li>quantified-self</li>
-                </ul>
-                </div>
-                </p>
+                    <p>Le <b>porteur du défi</b> présente son défi le vendredi soir, trouve un capitaine et une équipe. Il est
+                    vivement conseillé de commencer à <b>constituer son équipe</b> en amont de l'évènement. Pour cela une fois
+                    votre défi soumis, une page web lui sera dédié sur laquelle vous pourrez échanger avec les personnes
+                    intéressés et recruter.</p>
+
+            </div>
+            <div class="span4 text-justify">
+
                 <p>Les défis peuvent être soumis jusqu’au dernier moment.</p>
 
-                <p>Le porteur du défi doit présenter son défi le vendredi soir, trouver un capitaine et une équipe.</p>
+                <p>Les partenaires fournissent du matériel, des données et des services pour vous aider à la mise en
+                    oeuvre technique, pour en savoir plus consultez la section <a scroll-to="#sponsors">partenaires</a>
+                </p>
 
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12 text-center" style="font-family: Fauna One">
                 <a href="defi.html" class="btn">Je propose mon défi</a>
-
             </div>
         </div>
     </div>
@@ -126,12 +164,25 @@
         <div class="row">
             <div class="span12 text-center">
                 <h2>Rejoindre une équipe</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4 offset2 text-justify">
+            <p>Avant l’inscription vous pouvez échanger avec le porteur de défi qui vous intéresse parmi ceux déjà
+                    déposé. </p>
+            </div>
+            <div class="span4 text-justify">
+            <p>C’est
+                    le vendredi soir après les pitchs des porteurs de défis que les équipes se constitueront
+                    officiellement. Mais attention les places sont limitées.</p>
 
-                <p>Dès l’inscription vous pouvez sélectionner le défi qui vous intéresse parmi ceux déjà déposé. C’est
-                    le vendredi soir après les pitch des porteurs de défis que les équipes se constitueront
-                    officiellement.</p>
-
-                <a href="inscription.html" class="btn">Je rejoins une équipe</a>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="span12 text-center">
+                <p>Pour être tenu informé de l'ouverture des inscriptions et être sûr d'avoir une place, <a
+                        scroll-to="#home-signup">enregistrez-vous</a></p>
             </div>
         </div>
     </div>
@@ -144,30 +195,86 @@
             </div>
         </div>
         <div class="row">
-            <div class="span4 calbox">
+            <div class="span4">
                 <h2>Vendredi</h2>
-
-                <p>19h départ.</p>
-                <p>Les défis sont présentés par le porteur du défi, un capitaine est désigné et les équipes
-                    se définissent. </p>
-                <p>5mn de présentation par défis.</p>
+                <table class="table table-condensed" style="font-family: Fauna One">
+                    <tr>
+                        <td>18h</td>
+                        <td>départ, enregistrements, échanges entre participants</td>
+                    </tr>
+                    <tr>
+                        <td>18h30</td>
+                        <td>les défis sont présentés par le porteur du défi ou le capitaine, derniers recrutements, les
+                            équipes
+                            s'officialisent </td>
+                    </tr>
+                    <tr>
+                        <td>20h</td>
+                        <td>diner et démarrage des travaux</td>
+                    </tr>
+                    <tr>
+                        <td>minuit</td>
+                        <td>fermeture officielle pour la nuit (mais vous pouvez encore continuer ;) )</td>
+                    </tr>
+                </table>
             </div>
-            <div class="span4 calbox">
+            <div class="span4">
                 <h2>Samedi</h2>
-
-                <p>code, code, code …</p>
+                <table class="table table-condensed" style="font-family: Fauna One">
+                    <tr>
+                        <td>8h</td>
+                        <td>petit-déjeuner et c'est reparti !</td>
+                    </tr>
+                    <tr>
+                        <td>12h</td>
+                        <td>déjeuner et rencontres avec les coachs</td>
+                    </tr>
+                    <tr>
+                        <td>20h</td>
+                        <td>diner</td>
+                    </tr>
+                    <tr>
+                        <td>minuit</td>
+                        <td>fermeture officielle pour la nuit (les plus endurcis restent ;) )</td>
+                    </tr>
+                </table>
             </div>
-            <div class="span4 calbox">
+            <div class="span4">
                 <h2>Dimanche</h2>
-
-             <p>code, code, code … jusqu'à 16h ! </p>
-
-                <p>16h présentation des projets</p>
-
-                <p>18h délibération</p>
-
-                <p>19h remise des prix</p>
-                <p>20h clôture</p>
+                <table class="table table-condensed" style="font-family: Fauna One">
+                    <tr>
+                        <td>8h</td>
+                        <td>petit-déjeuner et c'est reparti pour la dernière ligne droite ! et c'est reparti !</td>
+                    </tr>
+                    <tr>
+                        <td>12h</td>
+                        <td>déjeuner</td>
+                    </tr>
+                    <tr>
+                        <td>14h</td>
+                        <td>revue des démos et derniers conseils</td>
+                    </tr>
+                    <tr>
+                        <td>18h30</td>
+                        <td>remise des copies, arrivée du jury, il est temps de respirer</td>
+                    </tr>
+                    <tr>
+                        <td>19h</td>
+                        <td>présentation des démos</td>
+                    </tr>
+                    <tr>
+                        <td>20h30</td>
+                        <td>remise des prix</td>
+                    </tr>
+                    <tr>
+                        <td>21h</td>
+                        <td>derniers verres</td>
+                    </tr>
+                    <tr>
+                        <td>22h</td>
+                        <td>clôture</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -178,7 +285,7 @@
             <div class="span12 text-center">
                 <h2>Questions</h2>
 
-                <div class="accordion" id="accordion2">
+                <div class="accordion" id="accordion2" style="font-family: Fauna One">
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
@@ -188,7 +295,8 @@
                         </div>
                         <div id="collapseOne" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Un <a href="http://">hackathon</a> est un évènement collaboratif où des développeurs et des designers se
+                                Un <a href="http://">hackathon</a> est un évènement collaboratif où des développeurs et
+                                des designers se
                                 retrouvent sur plusieurs jours pour réaliser des projets informatiques. Le terme
                                 hackathon est la fusion de hack et marathon, où hack désigne la volonté d’assembler
                                 toutes les technologies possibles pour créer un nouveau produit et marathon précise que
@@ -207,7 +315,8 @@
                             <div class="accordion-inner">
                                 Les professionnels de santé sont confrontés à des problèmes mais n’ont pas les
                                 moyens techniques de les mettre en oeuvre. C’est l’occasion de profiter de
-                                hackers qui aiment à résoudre des problèmes et concevoir des applications.
+                                dévoloppeurs et de designers qui aiment à résoudre des problèmes et concevoir des
+                                applications.
                             </div>
                         </div>
                     </div>
@@ -220,7 +329,7 @@
                         </div>
                         <div id="collapseThree" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Des hackers : développeur et designer toutes technologies confondues qui ont envie
+                                Des développeurs et designers toutes technologies confondues qui ont envie
                                 d’apporter leurs compétences à ce secteur et de travailler en direct avec des
                                 professionnels de santé.
                                 <br>
@@ -253,8 +362,7 @@
                         </div>
                         <div id="collapseFive" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Nous ouvrirons l’appel à défi 1 mois avant l’évènement, inscrivez-vous à la newsletter
-                                pour être tenu informé.
+                                Dès maintenant il suffit de remplir le formulaire
                             </div>
                         </div>
                     </div>
@@ -267,11 +375,13 @@
                         </div>
                         <div id="collapseSix" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Lors de l’évènement l’idée est de réaliser des prototypes qui montrent la viabilité d’une
+                                Lors de l’évènement l’idée est de réaliser des prototypes qui montrent la viabilité
+                                d’une
                                 idée pour améliorer la santé, la prise en charge des patients, l’accès aux soins...
                                 <br>
                                 Plus généralement l’idée est de stimuler l’innovation en faisant travailler ensemble des
-                                utilisateurs et des concepteurs. De faire en sorte qu’aucune bonne idée ne reste au placard
+                                utilisateurs et des concepteurs. De faire en sorte qu’aucune bonne idée ne reste au
+                                placard
                                 par manque de moyens pour la réaliser. Et ainsi d’apporter au secteur de la santé des
                                 améliorations significatives tant pour les patients que pour les praticiens.
                             </div>
@@ -286,9 +396,22 @@
                         </div>
                         <div id="collapseSeven" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Les solutions et/ou applications présentés lors de l’évènement sont la propriété exclusive des concepteurs et développeurs desdites solutions et/ou applications. MedHack est un évènement destiné à faciliter la mise en oeuvre de solutions et/ou applications et n’a pas vocation à revendiquer la propriété intellectuelle et industrielle desdites solutions et/ou applications.
-                                Il appartient à chaque équipe de définir dès le début du projet la répartition, le cas échéant, des droits de propriété intellectuelle et industrielle sur les solutions et/ou applications qu'elle développera et présentera. Un projet de solutions et/ou applications peut aboutir à une solution et/ou application grevée, entièrement ou partiellement, de droits de propriété ou autres ou devenir open-source. La définition, qualification et l'existence des droits de propriété ou autres sont de la responsabilité exclusive de chaque équipe. En aucun cas l'organisateur ne pourra voir sa responsabilité civile et/ou pénale engagée par des participants ou tous autres tiers à ce titre ou pour tout autre question relative à la propriété intellectuelle et industrielle.
-                                Les risques relatifs à la propriété intellectuelle ou assimilés sont assumés exclusivement par chacune des équipes.
+                                Les solutions et/ou applications présentés lors de l’évènement sont la propriété
+                                exclusive des concepteurs et développeurs desdites solutions et/ou applications. MedHack
+                                est un évènement destiné à faciliter la mise en oeuvre de solutions et/ou applications
+                                et n’a pas vocation à revendiquer la propriété intellectuelle et industrielle desdites
+                                solutions et/ou applications.
+                                Il appartient à chaque équipe de définir dès le début du projet la répartition, le cas
+                                échéant, des droits de propriété intellectuelle et industrielle sur les solutions et/ou
+                                applications qu'elle développera et présentera. Un projet de solutions et/ou
+                                applications peut aboutir à une solution et/ou application grevée, entièrement ou
+                                partiellement, de droits de propriété ou autres ou devenir open-source. La définition,
+                                qualification et l'existence des droits de propriété ou autres sont de la responsabilité
+                                exclusive de chaque équipe. En aucun cas l'organisateur ne pourra voir sa responsabilité
+                                civile et/ou pénale engagée par des participants ou tous autres tiers à ce titre ou pour
+                                tout autre question relative à la propriété intellectuelle et industrielle.
+                                Les risques relatifs à la propriété intellectuelle ou assimilés sont assumés
+                                exclusivement par chacune des équipes.
                             </div>
                         </div>
                     </div>
@@ -301,7 +424,7 @@
                         </div>
                         <div id="collapseEight" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                74,99 Euros sans l’hébergement
+                                70 Euros sans l’hébergement, 30 Euros pour les étudiants
                             </div>
                         </div>
                     </div>
@@ -309,7 +432,7 @@
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                                data-target="#collapseNine">
-                                Ou peut on dormir ?
+                                Où peut on dormir ?
                             </a>
                         </div>
                         <div id="collapseNine" class="accordion-body collapse in">
@@ -327,7 +450,8 @@
                         </div>
                         <div id="collapseTen" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Alsace Digitale est une association d’entrepreneurs et de geeks dont l’objectif est de promouvoir l’économie numérique et l’entrepreunariat en Alsace.
+                                Alsace Digitale est une association d’entrepreneurs et de geeks dont l’objectif est de
+                                promouvoir l’économie numérique et l’entrepreunariat en Alsace.
                             </div>
                         </div>
                     </div>
@@ -340,7 +464,7 @@
                         </div>
                         <div id="collapseEleven" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                100 tous 1/3 de professionnels de santé 2/3 de hackers
+                                100 tous 50% de professionnels de santé 50% de développeurs et designers
                             </div>
                         </div>
                     </div>
@@ -362,21 +486,85 @@
     <div class="container">
         <div class="row">
             <div class="span12">
-                <h2>Sponsors et Partenaires</h2>
-                <ul class="inline sponsors">
-                    <li><a href="http://www.alsacedigitale.org" target="_blank"><img src="img/alsacedigitale.png"/></a>
-                    </li>
-                    <li><a href="http://www.laplagedigitale.eu" target="_blank"><img src="img/laplagedigitale.png"/></a>
-                    </li>
-                    <li><a href="http://www.strasbourg.eu" target="_blank"><img class="smaller"
-                                                                                src="img/strasbourg_eu.jpg"/></a></li>
-                    <li><a href="http://www.strasbourg.eu" target="_blank"><img src="img/StrasbourgTheEuroptimist.png"/></a>
-                    </li>
-                    <br/>
-                    <li><a href="http://www.unistra.fr" target="_blank"><img src="img/uds.png"/></a></li>
-                    <li><a href="http://www.sfr.fr" target="_blank"><img src="img/sfr.png"/></a></li>
-                    <li><a href="http://www.semia-incal.com" target="_blank"><img src="img/semia.png"/></a></li>
-                </ul>
+                <h2 style="margin-bottom: 60px;">Partenaires</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">
+                <a href="http://www3.gehealthcare.fr/fr-FR" target="_blank"><img style="width: 450px;" src="img/ge-healthcare.jpg"/></a>
+                <p>Sponsor <b>GOLD</b></p>
+                <p>Apporteur de défis</p>
+            </div>
+            <div class="span3">
+                <a href="http://healthcare.orange.com/" target="_blank"><img src="img/orange1.jpg"/></a>
+                <p>Apporteur de services : machines virtuelles hébergées dans un cloud agréé</p>
+            </div>
+            <div class="span3">
+                <a href="http://www.arrowecs.fr/" target="_blank"><img src="img/Logo-Arrrow-ECS.png"/></a>
+                <p>Apporteur de services : machines virtuelles hébergées dans un cloud agréé</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <a href="http://www.vidal.fr/" target="_blank"><img src="img/BigVidalLogo.png"/></a>
+                <p>Apporteur de données : API d'accès à la base médicamenteuse</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.strasbourg.eu" target="_blank"><img style="width: 200px;" src="img/strasbourg_eu.jpg"/></a>
+                <p>Sponsor</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.ars.alsace.sante.fr/" target="_blank"><img src="img/ARS_LOGOS_jpg_alsace.jpg"/></a>
+                <p>Apporteur de défis</p>
+                <p>Relais de communication</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <a href="http://esante.gouv.fr/" target="_blank"><img src="img/asip-sante.png"/></a>
+                <p>Relais de communication</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.bas-rhin.fr/" target="_blank"><img src="img/bas-rhin_niou.jpg"/></a>
+                <p>Relais de communication</p>
+            </div>
+            <div class="span4">
+                <a href="https://www.sante-alsace.fr/" target="_blank"><img src="img/logo_gcs_top.png"/></a>
+                <p>Apporteur de défis</p>
+                <p>Relais de communication</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <a href="http://www.alsaceinnovation.eu/" target="_blank"><img src="img/AlsaceInnovation-logo.png"/></a>
+                <p>Relais de communication</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.alsace-biovalley.com/" target="_blank"><img src="img/alsace%20biovalley.jpg"/></a>
+                <p>Relais de communication</p>
+                <p>Soutien logistique</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.ch-haguenau.fr/" target="_blank"><img src="img/haguenau.gif"/></a>
+                <p>Relais de communication</p>
+                <p>Apporteur de défis</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <a href="http://www.ircad.fr/" target="_blank"><img src="img/ircad_france_couleur_grand.jpg"/></a>
+                <p>Apporteur de défis</p>
+                <p>Relais de communication</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.ihu-strasbourg.eu/" target="_blank"><img src="img/ihu_bd100.jpg"/></a>
+                <p>Apporteur de défis</p>
+                <p>Relais de communication</p>
+            </div>
+            <div class="span4">
+                <a href="http://www.ghsv.org/" target="_blank"><img src="img/email_ghsv.gif"/></a>
+                <p>Relais de communication</p>
+                <p>Apporteur de défis</p>
             </div>
         </div>
     </div>
@@ -393,12 +581,19 @@
 
 <script>
     $(".collapse").collapse();
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-XXXXXXX', 'medhack.fr');
+    ga('create', 'UA-XXXXXXX', 'digitalhealthcamp.fr');
     ga('send', 'pageview');
 
 </script>
