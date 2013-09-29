@@ -210,25 +210,37 @@ section p {
 
 .calbox p { font-size: 16px; }
 
-.navbar .nav>li>a.social-media {
-    font-family: 'SocialMediaFont';
-    padding: 0px 5px;
-    font-size: 35px;
-    position: relative;
-    top: 5px;
+.navbar .nav {
+  float: none;
 }
 
-.navbar .nav>li>a.facebook-icon {
-    color: #3B5998;
+.navbar .nav > li > a {
+  text-shadow: none;
 }
-.navbar .nav>li>a.twitter-icon {
-    color: #00aced;
+
+.navbar .nav > li a.social-media {
+  color: white;
+  padding: 2px 5px;
+  border-radius: 2px 2px;
+  margin: 0 3px;
 }
-.navbar .nav>li>a.gplus-icon {
-    color: #C63D2D;
+
+.navbar .nav>li>a.social-media {
 }
-.navbar .nav>li>a.linkedin-icon {
-    color: #4875B4;
+
+.navbar .nav>li>a.facebook {
+    background-color: #3B5998;
+    padding: 2px 10px;
+}
+.navbar .nav>li>a.twitter {
+    background-color: #00aced;
+}
+.navbar .nav>li>a.gplus {
+    background-color: #C63D2D;
+}
+.navbar .nav>li>a.linkedin {
+    background-color: #4875B4;
+    padding: 2px 7px;
 }
 
 .navbar .nav>li>a {
