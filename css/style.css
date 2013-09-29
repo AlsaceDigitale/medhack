@@ -214,16 +214,18 @@ section p {
     font-family: 'SocialMediaFont';
     padding: 0px 5px;
     font-size: 35px;
+    position: relative;
+    top: 5px;
 }
 
 .navbar .nav>li>a.facebook-icon {
     color: #3B5998;
 }
 .navbar .nav>li>a.twitter-icon {
-    color: #4099FF;
+    color: #00aced;
 }
 .navbar .nav>li>a.gplus-icon {
-    color: #d34836;
+    color: #C63D2D;
 }
 .navbar .nav>li>a.linkedin-icon {
     color: #4875B4;
