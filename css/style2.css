@@ -1,0 +1,13 @@
+.icon-calendar {
+    font-size: 26px;
+    background-color: rgb(79, 137, 155);
+    border-radius: 23px;
+    padding: 10px 10px 10px 10px;
+}
+
+.icon-map-marker {
+    font-size: 35px;
+    background-color: rgb(79, 137, 155);
+    border-radius: 22px;
+    padding: 6px 12px 3px 12px;
+}

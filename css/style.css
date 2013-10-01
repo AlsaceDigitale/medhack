@@ -3,144 +3,175 @@
 @import "fonts.css";
 
 header {
-  color: white;
-  width: 100%;  
-  background: url("../img/hopital.png") no-repeat center top fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    color: white;
+    width: 100%;
+    background: url("../img/hopital.png") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #home-title {
-width: 726px;
-margin: 40px auto 0px auto;
+    width: 726px;
+    margin: 40px auto 0px auto;
 }
 
-#home-title h1 {
-font-family : Libre Baskerville ;
-width: 726px;
-line-height: 142px;
-text-align: center;
-font-size: 110px;
-color: #fff;
-text-transform: uppercase;
-font-weight: 800;
-background: rgba(209, 81, 81, 0.7);
-height : 160px;
+#home-title img {
+    background: rgba(209, 81, 81, 0.7);
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 1px;
 }
 
 #home-title p {
-font-family : Fauna One ; 
-font-style : italic; 
-text-align: center;
-font-size: 20px;
-color: white;
-font-weight: 400;
-margin-top : -40px;
+    font-family : Fauna One ;
+    font-style : italic;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-top : -40px;
 }
 
 #date {
-width: 330px;
-height: 61px;
-float: left;
-padding: 9px 0px 0px 24px;
-background: rgba(0,0,0,0.7);
+    font-family: Fauna One;
+    float: left;
+    padding: 20px 55px 22px 30px;
+    background: rgba(0,0,0,0.7);
+}
+#date a .icon-calendar {
+    font-size: 26px;
+    background-color: rgb(79, 137, 155);
+    border-radius: 23px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+#date a:hover .icon-calendar {
+    color: #5f5f5f;
 }
 
 #location {
-width: 340px;
-height: 61px;
-float: right;
-padding: 9px 0px 0px 19px;
-background: rgba(0,0,0,0.7);
+    width: 317px;
+    font-family: Fauna One;
+    float: right;
+    padding: 15px 30px 16px 11px;
+    background: rgba(0,0,0,0.7);
+    text-align: right;
 }
 
-span.date, span.location { 
-display: block;
-height: 54px;
-line-height: 53px;
-/* color: #fff; */
-font-size: 26px;
-text-transform: uppercase;
-padding: 0px 0px 0px 70px;
+#location a .icon-map-marker {
+    font-size: 35px;
+    background-color: rgb(79, 137, 155);
+    border-radius: 22px;
+    padding: 6px 12px 3px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#location a:hover .icon-map-marker {
+    color: #5f5f5f;
+}
+
+#location span i {
+    font-size: 18px;
+}
+
+span.date {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 0px 0px 22px;
 }
 
 span.location {
- background: url('../img/location-green.png') no-repeat;   
-} 
+    display: inline-block;
+    height: 32px;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 0px 27px 0px 0px;
+}
+
+span.location {
+    /* background: url('../img/location-green.png') no-repeat; */
+}
 
 span.date {
-background: url('../img/date.png') no-repeat;
-} 
+    /* background: url('../img/date.png') no-repeat; */
+}
 
 #health-professionals-box {
-width: 497px;
-padding: 9px 0px 0px 11px;
-float: left;
-background: rgba(0,0,0,0.7);
-margin: 20px 0px 20px 67px;
-font-family : Fauna One
+    width: 497px;
+    padding: 10px 0px 0px 11px;
+    float: left;
+    background: rgba(0,0,0,0.7);
+    margin: 20px 0px 20px 67px;
+    font-family : Fauna One
 }
 
 #hackers-box {
-width: 499px;
-padding: 10px 0px 0px 11px;
-float: right;
-background: rgba(0, 0, 0, 0.7);
-margin: 20px 70px 20px 0px;
-font-family: Fauna One;
+    width: 499px;
+    padding: 10px 0px 0px 11px;
+    float: right;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 20px 70px 20px 0px;
+    font-family: Fauna One;
 }
 
 #health-professionals-box img, #hackers-box img {
-float: left;
-margin: 0px 20px 10px 0px;
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+
+#hackers-box img {
+    float: left;
+    margin: 0px 20px 10px 0px;
 }
 
 #health-professionals-box h2, #hackers-box h2 {
-font-size: 20px;
-margin: 0;
-font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 900;
 }
 
 
 #health-professionals-box p, #hackers-box p {
-font-size: 16px;
-font-weight: lighter; 
-line-height: 150%;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 150%;
 }
 
 #signup-bottom {
-clear: both;
-padding: 10px 0px;
-text-align: center;
-background: rgba(209, 81, 81, 0.7);
-margin: 20px auto;
-width: 650px;
-line-height: 25px;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+    background: rgba(209, 81, 81, 0.7);
+    margin: 20px auto;
+    width: 650px;
+    line-height: 25px;
 }
 
 #signup-bottom p {
-font-size: 18px;
-font-family : Fauna One; 
+    font-size: 18px;
+    font-family : Fauna One;
+    padding: 0px 96px;
 }
 
 section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  min-height: 200px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 200px;
 }
 
 section h2 {
     font-family: Fauna One;
     margin : 55px 0px 25px 15px;
-    line-height: 15px; 
-    
+    line-height: 15px;
+
 }
 
 section p {
     font-family: arial;
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 25px;
     margin : 0px 10px 0px 15px;
 }
@@ -180,11 +211,11 @@ section p {
     color: white;
 }
 .questions {
-    background-color: #4B5E57;
+    background-color: #F0996D;
     color: white;
 }
 .presse {
-    background-color: #fa1e3e;
+    background-color: #4B5E57;
     color: white;
 }
 .sponsors {
@@ -198,31 +229,31 @@ section p {
 }
 
 .calbox  {
-  
-  border: black solid 0px;
-  padding: 0px -5px 0px 4px;
-  height: 280px;
-  background: url('../img/calendar.png')no-repeat; 
-  color: black;
-  width: 270px;
-  margin-left: 80px;
+
+    border: black solid 0px;
+    padding: 0px -5px 0px 4px;
+    height: 280px;
+    background: url('../img/calendar.png')no-repeat;
+    color: black;
+    width: 270px;
+    margin-left: 80px;
 }
 
 .calbox p { font-size: 16px; }
 
 .navbar .nav {
-  float: none;
+    float: none;
 }
 
 .navbar .nav > li > a {
-  text-shadow: none;
+    text-shadow: none;
 }
 
 .navbar .nav > li a.social-media {
-  color: white;
-  padding: 2px 5px;
-  border-radius: 2px 2px;
-  margin: 0 3px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 2px 2px;
+    margin: 0 3px;
 }
 
 .navbar .nav>li>a.social-media {
@@ -266,35 +297,40 @@ section p {
     text-align: justify;
 }
 
+.btn {
+    font-size: 28px;
+    padding: 14px 20px;
+}
+
 /* Large desktop */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
-header {
-    margin: 0px 0px 0 0;
+    header {
+        margin: 0px 0px 0 0;
+    }
+
 }
 
-}
- 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
 
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
-body {
-    padding-right: 0px;
-    padding-left: 0px;
-}
+    body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    
-.navbar .nav>li {
-    float: none;
-}
+
+    .navbar .nav>li {
+        float: none;
+    }
 
 }
