@@ -288,6 +288,10 @@ section p {
     margin: 0 3px;
 }
 
+.nav-list > li > a.social-media:hover {
+    text-decoration: none;
+}
+
 .nav-list > li > a.facebook {
     background-color: #3B5998;
     padding: 2px 10px;
