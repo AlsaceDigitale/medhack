@@ -490,4 +490,9 @@ nav {
   .sponsors [class*="span"] {
     margin-top: 40px;
   }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
