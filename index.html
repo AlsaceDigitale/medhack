@@ -22,10 +22,10 @@
 
 </head>
 
-<body ng-app="medhack">
+<body ng-app="medhack" id="top">
 <nav class="navbar navbar-fixed-top">
     <ul class="nav-list clearfix">
-        <li><img src="img/logo-AD.png" style="width:170px;"/></li>
+        <li><a href="#top" scroll-to="#top"><img src="img/logo-AD.png" style="width:170px;"/></a></li>
         <li><a href="#concept" scroll-to="#concept">Concept</a></li>
         <li><a href="#defi" scroll-to="#defi">Proposer un défi</a></li>
         <li><a href="#equipe" scroll-to="#equipe">Rejoindre une équipe</a></li>
@@ -52,7 +52,7 @@
                     <div class="span2">
                         <a href="https://www.google.com/calendar/ical/ib3qinns77bepsr8eq6r40cq0o%40group.calendar.google.com/public/basic.ics" class="icon-container"><span class="pull-left icon-calendar"></span></a>
                     </div>
-                    <div class="span10">
+                    <div class="span10" style="padding-top: 10px;">
                         <h3>
                             28-29-30 Mars 2014
                         </h3>
@@ -63,7 +63,7 @@
                 <div class="row-fluid">
                     <div class="span10">
                         <h3>
-                            Fac de médecine
+                            Faculté de médecine
                             <br/>
                             <em>de Strasbourg</em>
                         </h3>
@@ -88,12 +88,12 @@
             </div>
             <div class="span5 bg-black">
                 <div class="row-fluid">
-                    <div class="span3">
-                        <a href="#equipe" scroll-to="#equipe"><img src="img/hacker.png" alt=""></a>
-                    </div>
-                    <div class="span9">
+                    <div class="span9 align-right">
                         <h2>Développeurs / Designers</h2>
                         <p>Vous maîtrisez des technologies innovantes et vous aimez résoudre des problèmes</p>
+                    </div>
+                    <div class="span3">
+                        <a href="#equipe" scroll-to="#equipe"><img src="img/hacker.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -370,7 +370,7 @@
                         </div>
                         <div id="collapseFour" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Toute personne qui à une idée en rapport avec une problématique de santé peut pitcher
+                                Toute personne qui à une idée en rapport avec une problématique de santé peut proposer
                                 une idée et rassembler une équipe.
                             </div>
                         </div>
@@ -459,7 +459,7 @@
                         </div>
                         <div id="collapseNine" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                                Sur place pour les plus endurcis et sinon dans les hotels aux alentours TODO LINKS
+                                Sur place pour les plus endurcis en ramenant duvet et matelas mais nous n'avons pas de sanitaire et sinon dans les hotels aux alentours
                             </div>
                         </div>
                     </div>
@@ -474,6 +474,9 @@
                             <div class="accordion-inner">
                                 Alsace Digitale est une association d’entrepreneurs et de geeks dont l’objectif est de
                                 promouvoir l’économie numérique et l’entrepreunariat en Alsace.
+                                <br>Aux manettes de cet évènement : <a href="http://twitter.com/sebmade">Sébastien Letélié</a>, <a href="http://twitter.com/johan_moreau">Johan Moreau</a>, <a href="http://twitter.com/LionelBrosius">Lionel Brosius</a></li>
+                                et toute l'équipe d'Alsace Digitale : <a href="http://twitter.com/whirlyvonelsass">Stéphane Becker</a>, <a href="http://twitter.com/yannski">Yann Klis</a>, <a href="http://twitter.com/yanjost">Yannick Jost</a>, Pascal Bastien, Emmanuelle Ebel, <a href="http://twitter.com/SandrineHilaire">Sandrine Hilaire</a> et <a href="http://twitter.com/red_act">Stéphane Bourhis</a>
+                                <br>et aussi <a href="http://twitter.com/chris_eynius">Christophe Eynius G.</a>, Marilyne Oswald et la team <a href="http://twitter.com/AlsaceBiovalley">Alsace BioValley</a>
                             </div>
                         </div>
                     </div>
@@ -490,6 +493,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
+                               data-target="#collapseTwelve">
+                                D'autres questions ?
+                            </a>
+                        </div>
+                        <div id="collapseTwelve" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                                <a href="mailto:contact@digitalhealthcamp.eu">Contactez-nous</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -500,6 +516,16 @@
         <div class="row">
             <div class="span12 text-center">
                 <h2>Presse</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6 text-center">
+                <a href="https://docs.google.com/file/d/1oGTH6t1xdCHb6nSHPY5eOjouLU59NhrYyDScNZltNc_BVnkzBPIq1biZAPcIfOvaOYBX_aWg3XB_PNb7/edit?usp=sharing" target="_blank"><img src="img/iconPresse.png"/></a>
+                <p>Dossier de presse</p>
+            </div>
+            <div class="span6 text-center">
+                <a href="https://docs.google.com/file/d/0B21GKI0gFqb8Rk9PLVVOQnlfaXc/edit?usp=sharing" target="_blank"><img style="width:120px; padding-top: 30px;" src="img/pdf_icon.png"/></a>
+                <br><br><p>Affiche</p>
             </div>
         </div>
     </div>
