@@ -216,6 +216,10 @@ section p {
     font-weight: bold;
 }
 
+.news {
+    background-color: #92006b;
+    color: white;
+}
 .concept {
     background-color: #4E8792;
     color: white;
