@@ -70,6 +70,33 @@ body {
   margin-top: 8px;
 }
 
+.logo {
+    width: 8em;
+}
+
+.hh {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.title-box {
+    padding-top: 1em;
+}
+
+.title {
+    font-size: 4em;
+    display: inline-block;
+    font-family: sans-serif;
+    letter-spacing: 9px;
+}
+
+.subtitle {
+    padding-left: 6em;
+    font-size: 1.2em;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+
 #date {
     font-family: Fauna One;
     float: left;
@@ -393,7 +420,20 @@ nav {
     width: 100%;
     padding-left: 0; }
     .nav-list li {
-      width: 100%; } }
+      width: 100%; }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+    .title {
+        font-size: 3em;
+        letter-spacing: 7px;
+    }
+    .subtitle {
+        font-size: 1em;
+        letter-spacing: 3px;
+    }
+}
+
 /*                              500px */
 @media screen and (max-width: 31.25em) {
   nav {
@@ -426,7 +466,8 @@ nav {
       text-align: center; }
       .nav-list a:hover, .nav-list a:visited {
         color: white;
-        text-align: center; } }
+        text-align: center; }
+}
 /*                              501px                    750px */
 @media screen and (min-width: 31.313em) and (max-width: 46.875em) {
   nav {
@@ -452,7 +493,8 @@ nav {
       display: block;
       margin: 0 !important;
       padding: 0.4em 0 !important;
-      width: 100%; } }
+      width: 100%; }
+}
 /*                              750px */
 @media screen and (max-width: 46.875em) {
   .nav-list li {
@@ -462,7 +504,8 @@ nav {
   .nav-list a {
     color: white; }
     .nav-list a:hover, .nav-list a:visited, .nav-list a:active {
-      color: white; } }
+      color: white; }
+}
 
 @media screen and (min-width: 768px) {
   .p58 {
@@ -503,6 +546,14 @@ nav {
   .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
     margin-left: 0;
     margin-right: 0;
+  }
+  .title {
+    font-size: 2em;
+    letter-spacing: 6px;
+  }
+  .subtitle {
+    font-size: 0.8em;
+    letter-spacing: 1px;
   }
 
 }
