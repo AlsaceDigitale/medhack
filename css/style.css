@@ -313,6 +313,16 @@ section p {
     padding: 14px 20px;
 }
 
+.card-text {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    width: 210px;
+}
+.card-img {
+    display: inline-block;
+}
+
 @media (min-width: 980px) {
   body {
     margin-top: 40px;
