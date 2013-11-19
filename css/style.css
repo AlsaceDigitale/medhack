@@ -2,6 +2,18 @@
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
 @import "fonts.css";
 
+.menubar {
+    padding: 7px 0px;
+    margin: 0 0;
+    background-color: black;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.menubar a {
+    color: white;
+}
+
 header {
     color: white;
     width: 100%;
@@ -18,6 +30,7 @@ header {
 
 body {
   font-family: Fauna One;
+    margin-top: 0;
 }
 
 .bg-black h2, .bg-red h2 {
@@ -97,6 +110,13 @@ body {
     letter-spacing: 9px;
 }
 
+.menu > li {
+    display: inline-block;
+    width: 164px;
+    padding: 0px 5px;
+    text-align: center;
+    vertical-align: top;
+}
 
 .subtitle {
     padding-left: 6em;
@@ -356,12 +376,6 @@ section p {
 }
 .card-img {
     display: inline-block;
-}
-
-@media (min-width: 980px) {
-  body {
-    margin-top: 40px;
-  }
 }
 
 @media (max-width: 1339px) {
