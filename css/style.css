@@ -79,6 +79,13 @@ body {
     font-family: sans-serif;
 }
 
+.center {
+    text-align: center;
+}
+
+.p9 {
+    padding: 9px 0px;
+}
 .title-box {
     padding-top: 1em;
 }
@@ -90,11 +97,12 @@ body {
     letter-spacing: 9px;
 }
 
+
 .subtitle {
     padding-left: 6em;
     font-size: 1.2em;
     font-style: italic;
-    letter-spacing: 3px;
+    letter-spacing: 9px;
 }
 
 #date {
