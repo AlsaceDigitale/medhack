@@ -8,6 +8,11 @@
     background-color: black;
     vertical-align: middle;
     font-weight: bold;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
 }
 
 .menubar a {
@@ -30,7 +35,6 @@ header {
 
 body {
   font-family: Fauna One;
-    margin-top: 0;
 }
 
 .bg-black h2, .bg-red h2 {
@@ -295,6 +299,10 @@ section p {
     background-color: #F0996D;
     color: white;
 }
+.matos {
+    background-color: #88644c;
+    color: white;
+}
 .presse {
     background-color: #4B5E57;
     color: white;
@@ -307,6 +315,10 @@ section p {
 
 .sponsors img {
     width: 100px;
+}
+
+.well {
+    background-color: initial;
 }
 
 .calbox  {
@@ -376,6 +388,12 @@ section p {
 }
 .card-img {
     display: inline-block;
+}
+
+@media (min-width: 900px) {
+    body {
+        margin-top: 84px;
+    }
 }
 
 @media (max-width: 1339px) {
