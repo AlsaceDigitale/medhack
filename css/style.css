@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
-@import "fonts.css";
+@import "/css/fonts.css";
 
 .menubar {
     padding: 7px 0px;
@@ -22,7 +22,7 @@
 header {
     color: white;
     width: 100%;
-    background: url("../img/hopital.png") no-repeat center top fixed;
+    background: url("/img/hopital.png") no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -326,7 +326,7 @@ section p {
     border: black solid 0px;
     padding: 0px -5px 0px 4px;
     height: 280px;
-    background: url('../img/calendar.png')no-repeat;
+    background: url('/img/calendar.png')no-repeat;
     color: black;
     width: 270px;
     margin-left: 80px;
@@ -454,6 +454,47 @@ nav {
     .nav-list a:not(.social-media):hover {
       color: white;
       transition: color 0.1s ease-in-out 0s; }
+
+.blog .date {
+    background-color: #177491;
+    color: #FFFFFF;
+    float: right;
+    font-size: 20px;
+    height: 60px;
+    padding: 7px;
+    text-align: center;
+    width: 60px;
+}
+.blog .date .month {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+article .contentblock {
+    border-left: 1px solid #177491;
+    margin-left: 0;
+    padding-left: 20px;
+}
+article .contentblock p:last-child {
+    margin-bottom: 0;
+}
+article .contentblock a.more {
+    font-weight: bold;
+    text-decoration: underline;
+}
+article .title {
+    line-height: 26px;
+    margin-top: 0;
+}
+article .title a, article .title a:hover, article .title a:visited, article .title a:focus {
+    color: #000000;
+}
+article img {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.separator {
+    padding: 10px 0;
+}
 
 @media screen and (max-width: 19.938em) {
   .nav-list {
