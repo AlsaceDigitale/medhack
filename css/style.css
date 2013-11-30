@@ -251,11 +251,9 @@ section h2 {
     font-family: Fauna One;
 }
 
-section p {
-    font-family: arial;
+section p, section ul, section li {
     font-size: 18px;
     line-height: 25px;
-    margin : 0px 10px 0px 15px;
 }
 
 .theme {
@@ -392,7 +390,7 @@ section p {
 
 @media (min-width: 900px) {
     body {
-        margin-top: 84px;
+        margin-top: 64px;
     }
 }
 
@@ -479,18 +477,16 @@ article .contentblock p:last-child {
 }
 article .contentblock a.more {
     font-weight: bold;
-    text-decoration: underline;
 }
-article .title {
-    line-height: 26px;
-    margin-top: 0;
+article .post_title {
 }
-article .title a, article .title a:hover, article .title a:visited, article .title a:focus {
+article .post_title a, article .title a:hover, article .title a:visited, article .post_title a:focus {
     color: #000000;
 }
-article img {
-    margin: 0 auto;
-    padding: 10px 0;
+article p img {
+    float: left;
+    margin-right: 10px;
+    width: 230px;
 }
 .separator {
     padding: 10px 0;

@@ -4,7 +4,7 @@ angular.module('medhack', [])
       var section = $(attrs.scrollTo);
       if (section) {
         element.on('click', function() {
-          $('html, body').stop().animate({scrollTop: section.offset().top-80}, 300);
+          $('html, body').stop().animate({scrollTop: section.offset().top-64}, 300);
           return false;
         })
       } else {
