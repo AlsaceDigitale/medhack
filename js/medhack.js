@@ -4,8 +4,11 @@ angular.module('medhack', [])
       var section = $(attrs.scrollTo);
       if (section) {
         element.on('click', function() {
-          $('html, body').stop().animate({scrollTop: section.offset().top-64}, 300);
-          return false;
+          if (section.offset()) {
+            $('html, body').stop().animate({scrollTop: section.offset().top-64}, 300);
+            return false;
+          }
+          return true;
         })
       } else {
         console.warn('id de section introuvable : '+section);
