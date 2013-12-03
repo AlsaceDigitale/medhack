@@ -600,7 +600,11 @@ article p img {
 }
 
 @media screen and (max-width: 767px) {
-  .bg-red {
+    .menubar {
+        position: relative;
+    }
+
+    .bg-red {
     text-align: center;
   }
 
