@@ -13,6 +13,7 @@
     left: 0;
     top: 0;
     z-index: 1030;
+    text-align: center;
 }
 
 .menubar a {
@@ -64,13 +65,13 @@ body {
 }
 
 .bg-red {
-  background: rgba(209, 81, 81, 0.7);
+  background: rgba(209, 81, 81, 0.8);
   padding: 15px;
 }
 
 .bg-black {
   text-align: center;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   padding: 15px;
 }
 
@@ -100,6 +101,11 @@ body {
     text-align: center;
 }
 
+.vcenter {
+    line-height: 110px;
+    vertical-align: middle;
+}
+
 .p9 {
     padding: 9px 0px;
 }
@@ -110,8 +116,13 @@ body {
 .title {
     font-size: 4em;
     display: inline-block;
-    font-family: sans-serif;
-    letter-spacing: 9px;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 12px;
+    line-height: 50px;
+}
+
+.fz25em {
+    font-size: 2.5em;
 }
 
 .menu > li {
@@ -123,10 +134,11 @@ body {
 }
 
 .subtitle {
-    padding-left: 6em;
+    padding-left: 5em;
+    font-family: 'Roboto Condensed';
     font-size: 1.2em;
     font-style: italic;
-    letter-spacing: 9px;
+    letter-spacing: 10px;
 }
 
 #date {
