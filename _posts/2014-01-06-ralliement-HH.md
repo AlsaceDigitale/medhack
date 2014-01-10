@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DigitalHealthCamp et Hacking Health s'associent pour innover en santé !"
-date:   2013-01-06 12:31:48
+date:   2014-01-06 12:31:48
 ---
 
 ![défi](/img/hh-logo.png)
