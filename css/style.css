@@ -20,6 +20,16 @@
     color: white;
 }
 
+.hhinfo {
+    font-family: 'Roboto Condensed';
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+.hhinfo a {
+    color: rgb(255, 58, 58);
+}
+
 header {
     color: white;
     width: 100%;
