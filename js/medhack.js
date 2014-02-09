@@ -15,3 +15,4 @@ angular.module('medhack', [])
       }
     }
   });
+$("section#jury p").tooltip({placement:'bottom'});

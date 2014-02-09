@@ -135,13 +135,35 @@ body {
     font-size: 2.5em;
 }
 
+.menu {
+    margin: 0;
+}
+
 .menu > li {
     display: inline-block;
-    width: 164px;
+    width: 120px;
     padding: 0px 5px;
     text-align: center;
     vertical-align: top;
+    font-size: 12px;
 }
+
+.tooltip-trigger:hover .tooltip-zone {
+    display: block;
+}
+
+.tooltip-zone {
+    display: none;
+    background: #000000;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
 
 .subtitle {
     padding-left: 5em;
@@ -408,6 +430,17 @@ section p, section ul, section li {
 }
 .card-img {
     display: inline-block;
+}
+
+.circle-decoration {
+    border: 1px solid #000000;
+    border-radius: 500px;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+}
+.icon-bar {
+    margin-top: 10px;
+    font-size: 2em;
 }
 
 @media (min-width: 900px) {
