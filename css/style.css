@@ -358,6 +358,10 @@ section p, section ul, section li {
 .sponsors img {
     width: 100px;
 }
+.prix {
+    background-color: #960014;
+    color: white;
+}
 
 .well {
     background-color: initial;
