@@ -8,7 +8,9 @@ date:   2014-03-15 11:31:48
 
 L'adresse exacte est [2 Rue Kirschleger, 67000 Strasbourg](https://www.google.fr/maps/place/2+Rue+Kirschleger/@48.5775028,7.7404357,17z/data=!3m1!4b1!4m2!3m1!1s0x4796c9b37a659053:0xb2501701ca7bc42c) ou [1 Rue Humann, Strasbourg](https://www.google.fr/maps/place/1+Rue+Humann/@48.5768656,7.7380692,17z/data=!3m1!4b1!4m2!3m1!1s0x4796c9b4616fdaaf:0x7f1cc95e87633b78)
 
-Mais le forum de la fac de médecine est caché derrière les bâtiments de la fac de médecine. Regardez le **[plan personnalisé](https://mapsengine.google.com/map/edit?mid=zvONMy3YPLvI.kIohr3SUGc24)** pour bien vous repérer.
+Mais le forum de la fac de médecine est caché derrière les bâtiments de la fac de médecine.
+
+####Regardez le **[plan personnalisé](https://mapsengine.google.com/map/edit?mid=zvONMy3YPLvI.kIohr3SUGc24)** pour bien vous repérer.
 
 La station la plus proche en tramway est "Musée d'Art Moderne" sur la ligne B et F, consultez le [plan de tram](http://www.cts-strasbourg.eu/export/sites/default/pdf/04SeDeplacer/03PlansReseau/CARTONNETTE-tram-nov-2013-OK.pdf)
 La station la plus proche en bus est "Hotel du département" sur la ligne 10 (pas besoin d'indiquer la direction il fait une boucle). Il part de la gare.
