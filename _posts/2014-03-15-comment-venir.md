@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comment venir ?"
+title:  "Comment venir et où loger ?"
 date:   2014-03-15 11:31:48
 ---
 
@@ -77,9 +77,27 @@ Entrée du parking
 ![Entrée du parking](/img/entreeparking.JPG)
 
 ![prix](/img/entreeparking2.JPG)
+<br><br><br><br><br><br><br><br>
 Le forum
 
 ![Forum vue de l'entrée](/img/forum2.JPG)
+<br><br><br><br><br><br><br><br>
+###Où loger ?
+
+Les hotels les plus proches de l'évènement sont :
+- [IBIS Ponts Couverts](http://www.accorhotels.com/fr/hotel-1428-ibis-strasbourg-centre-ponts-couverts/index.shtml)
+- [Appart City](http://www.appartcity.com/apparthotel-strasbourg/_R_12_72_/accueil-residence.htm) : appartements
+- [Hôtel Ettenheim](http://www.hotel-ettenheim-strasbourg.fr/)
+- [Hôtel Les Haras](http://www.les-haras-hotel.com/)
+- [Hôtel au Cerf d'Or](http://www.cerf-dor-strasbourg.fr/)
+
+Et il y a encore plein d'autres hotels au centre ville.
+
+N'oubliez pas le service AirBnB, nous vous avons fait une [sélection](https://www.airbnb.fr/wishlists/25232473)
+
+Et n'hésitez pas à **solliciter les autres participants** pour le logement en commun.
+
+A noter que vous **pouvez dormir sur le lieu de l'évènement** en amenant **duvet et matelas** mais le lieu n'est **pas équipé de salle de bains ni de douche**.
 
 ###Contact
 
